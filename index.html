@@ -51,6 +51,7 @@
     <p style="text-align: center;">Hello! I am a math tutor based in NYC and online. </p>
   </div>
   <div class="newspaper-columns">
+    <div>
     <h3>Specialties</h3>
     <ul>
       <li>Calculus (AP AB/BC, College Level 1/2/3)</li>
@@ -65,6 +66,8 @@
       <li>Semester in Mathematics and Philosophy, Charles University Prague.</li>
       <li>Over 1500 hours experience with students aged 5 to 38.</li>
     </ul>
+    </div>
+    <div>
     <h3 class="force-next-column">Hourly Rates</h3>
     <ul>
       <li>In Person: $100</li>
@@ -77,12 +80,14 @@
       <li>I accept payment by cash, check, Venmo, or Zelle. I can accept payment week by week (individually within the 7 days following each session) ahead of time in bulk (i.e. in full at the beginning of the month or semester).</li>
       <li>I allow cancellation without a fee at least 24 hours in advance. Late cancellation will incur a fee of 50% of the session price, although I may make exceptions due to illness or emergency.</li>
       <li>If you're happy with my services and feel inclined to recommend me to others, I will thank you with one free session each time a new student books a lesson with me through your referral!</li>
-    </ul>
+    </ul></div>
   </div>
 
 <!-- CSS -->
   <style>
   .newspaper-columns {
+    display: grid;
+    grid-template-columns: auto auto;
     column-count: 2;   /* Splits the text into exactly 2 columns */
     column-gap: 40px;  /* Adds space between the columns */
   }
